@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+    html {
+    height: 100%;
+    font-family: sans-serif;
+}
+img {
+    height: 92px;
+    width: 272px;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+body{
+    
+    margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 260px;
+  font-size:10vw;
+  height: 100%;
+    
+}
+.top {
+    text-align: right;
+    margin: 20px;
+}
+.mid {
+    margin-top: 35px;
+}
+input{
+    width: 45%;
+    height: 35px;
+    padding: 0 5px 0 15px;
+    margin: 10px; 
+    border-radius: 20px;
+    background-color: #f8f9fa;
+    
+}
+.buttons{
+margin: 15px 0px 20px 0;
+text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding-left: 10px;
+
+}
+button{
+padding: 5px;
+border-radius: 5px;
+margin-right: 20px;
+background-color: #f8f9fa;
+border: 1px solid #f8f9fa;
+font-family: arial,sans-serif;
+color: #3c4043;
+font-size: 14px;
+line-height: 27px;
+height: 36px;
+margin: auto;
+text-align: center;
+}
+a {
+    margin-right: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: small;
+    
+}
+.signing{
+border: 1px solid #4285f4;
+font-weight: bold;
+outline: none;
+background: #4285f4;
+background: -moz-linear-gradient(top,#4387fd,#4683ea);
+color: white;
+}
+.atop{
+    color: black;
+}
+.bottom{
+    color: rgba(0,0,0,.54);
+    text-align: left;
+    background-color: #f2f2f2;
+    border: 1px solid;
+    padding: 1px;
+    
+}
+h4{margin-left: 10px;}
+#footnotes, #lastnotes{
+    color:rgba(0,0,0,.54);
+
+}
+#footnotes {
+    text-align: left;
+    
+}
+#bantsLeft{
+    
+    color:rgba(0,0,0,.54);
+    text-align: left;
+    float: left;
+    margin-inline: 20px;
+}
+#centerFooter{
+    
+    color:rgba(0,0,0,.54);
+    text-align: center;
+    float: left;
+    margin-inline: 90px;
+margin-left: 170px;}
+#bantsRight{
+    
+    color:rgba(0,0,0,.54);
+    text-align: end;
+    align-content: flex-end;
+    
+    float: right;
+    
+   
+}
+.lastfoot{
+    margin-right: 10px;
+}
+#lastnotes{
+    text-align: right;
+    margin-right: 30px;
+}
+
+section{
+  align-self: center;
+  margin: 30%, 0, 40%, 10%;
+  width: 50%;
+  margin-bottom: 280px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+ 
+}
+hr{
+    color:  rgba(0,0,0,.54);
+}
+footer{
+   background-color: #f2f2f2;;;
+   padding: 20px;
+   font-size: 15px;
+   flex-shrink: 0;
+box-sizing: border-box;
+font-size: 14px;
+font-family: arial,sans-serif;
+color: #222;
+bottom: 0;
+padding-bottom: 30px;
+width: 100%;
+margin-top: 170px;
+
+}
+#Nigeria{
+    color: rgba(0,0,0,.54);
+}
+.FooterStuff{
+    
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+.offering{
+    display: inline-block;
+    line-height: 28px;
+    font-size: small;
+    text-align: justify;
+}
+.language{
+   
+    float: left;
+    height: 50px;
+    margin: 5px;
+}
+p{
+    float: left;
+    height: 50px;
+    margin: 5px;
+}
+header{
+    margin-bottom: 150pxS;
+}
+    </style>
+        <title>Google</title>
+        <link href="style sheet/custom.css" rel="stylesheet">
+        <header>
+            <nav class="top">
+                <a id="atop" href="#">Gmail</a>
+                <a id="atop" href="#">Images</a>
+                <button class="signing">Sign in</button>
+            </nav>
+            
+                </header>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    </head>
+   
+    <body>
+        <section>
+            <form>
+        <figure>
+            <img src="images/googleNew.png">
+        </figure>
+        <input type="text" value="Google Search">
+        <div class="buttons">
+            <button> Google search</button>
+            <button> I'm feeling lucky</button>
+        </div>
+    </form>
+    <div class="offering">
+        <p>Google offered in:</p> 
+         <nav class="language">
+         <a href="#">Hausa</a>
+         <a href="#">Igbo</a>
+         <a href="#">Ede Yoruba</a>
+         <a href="#">Nigerian Pidgin</a>
+     </nav>
+     </div>
+        </section>
+      
+    </body>
+    <br>
+    <footer>
+       <div id="Nigeria">Nigeria</div> 
+     <hr>
+    <div class="FooterStuff">
+        <span id="bantsLeft">
+            <a id="footnotes" href="#">About</a>
+            <a id="footnotes" href="#">Advertising</a>
+            <a id="footnotes" href="#">Business</a>
+            <a id="footnotes" href="#">How Search works</a>
+        </span>
+        <div>
+            <a id="centerFooter" href="#"> Carbon neutral since 2007</a>
+        </div>
+        <span id="bantsRight">
+            <a id="lastnotes" href="#">Privacy</a>
+            <a id="lastnotes" href="#">Terms</a>
+            <a id="lastnotes" href="#">Settings</a>
+        </span>
+    </div>
+   
+    </footer>
+</html>
